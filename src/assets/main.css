@@ -85,17 +85,17 @@ strong {
 		}
 	}
 	em {
-		color: var(--ts-color-blue);
+		color: var(--color-blue);
 	}
 	&:nth-child(3n + 1) {
 		label span em {
 			filter: brightness(90%);
-			color: var(--ts-color-green);
+			color: var(--color-green);
 		}
 	}
 	&:nth-child(3n + 2) {
 		label span em {
-			color: var(--ts-color-magenta);
+			color: var(--color-magenta);
 		}
 	}
 	&.bingo {

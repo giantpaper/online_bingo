@@ -2,13 +2,17 @@
 	<section id="info">
 		<button id="infoBtn" aria-label="Info" @click="toggleInfo('#info')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><!--!Font Awesome Pro 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.--><path d="M56 72a40 40 0 1 1 80 0A40 40 0 1 1 56 72zM16 200c0-13.3 10.7-24 24-24l56 0c13.3 0 24 10.7 24 24l0 264 48 0c13.3 0 24 10.7 24 24s-10.7 24-24 24L24 512c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0 0-240-32 0c-13.3 0-24-10.7-24-24z"/></svg></button>
 		<div id="info_content">
-			<h2>How to Play</h2>
+			<h2>How to Play — Bingo, Dinner Ed.</h2>
 
 			<ol>
-				<li>Check off squares that apply throughout your week. Ex. If either Gmail, Helpscout, Github, etc go down, check off <em>Helpscout/<wbr>Github/<wbr>Shopify/<wbr>Cloudflare/<wbr>Gmail is down</em></li>
-				<li>Once you've filled up any row, and column, any diagonal, etc (see Win Conditions) with checked items, you've got a BINGO.</li>
-				<li><strong>ON FRIDAY—</strong>If you got a BINGO, talk about the circumstances that led up to the checked squares. Reference the coordinates on the grid.
-				<blockquote>Ex. "I have <strong>Client backtracks on a new thing they asked for after people complained</strong> on B-5. The client wanted an animated black and white favicon on their site where the black and white would alternate, like some sort of blinking, strobing nightmare. They asked us to change it back after finding out how unpopular it was."</blockquote></li>
+				<li>Check off the cards of the meals you have throughout the week, starting Sunday.</li>
+				<li>On Saturday EOD, talk about the food that you've checked off with your teammates.
+					<h3>Ex.</h3>
+					<blockquote>
+						"B-4: On Thursday, we had meatball subs from Subway. / I-3: On Friday, we had enchiladas."
+					</blockquote>
+				</li>
+				<li>If there are no bingos, whoever gets the closest to a bingo wins.</li>
 			</ol>
 
 			<h2>FAQs</h2>
@@ -16,7 +20,6 @@
 			<h3>FYI...</h3>
 
 			<ul class="faq">
-				<li><strong>Is "Are you available for a call?" or "Please call me" the same as <em>Client said "can we get on a call?"</em></strong>—Yes it is! Phrases don't need to be exact.</li>
 				<li><strong>How often is progress reset?</strong>—Every Sunday 12:00am your local time. This means all squares will be randomized, checked off squares with be unchecked, and bingo status reset.</li>
 			</ul>
 
@@ -56,8 +59,8 @@
 	h2 {
 		margin-top: 2rem;
 		padding-bottom: 0.5rem;
-		padding-left: var(--ts-spacing-x);
-		margin-left: calc(var(--ts-spacing-x) * -1);
+		padding-left: var(--spacing-x);
+		margin-left: calc(var(--spacing-x) * -1);
 	}
 	#info {
 		background: var(--vt-c-black);
@@ -79,9 +82,9 @@
 			line-height: 160%;
 			overflow-y: auto;
 			max-height: 100vh;
-			padding: calc(var(--ts-spacing-y) * 0.5) calc(var(--ts-spacing-x) * 0.5);
+			padding: calc(var(--spacing-y) * 0.5) calc(var(--spacing-x) * 0.5);
 			@media (min-width: 768px) {
-				padding: var(--ts-spacing-y) var(--ts-spacing-x);
+				padding: var(--spacing-y) var(--spacing-x);
 			}
 			li {
 				margin-bottom: 1rem;
