@@ -4,12 +4,12 @@
 
 @import './base.css';
 
-@import 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inconsolata:wght@200..900&family=Sono:wght@200..800&display=swap';
 
 #app {
   margin: 0 auto;
   font-weight: 400;
-	font: 0.9em Jost,sans-serif;
+	font: 0.9em Inconsolata,sans-serif;
 }
 
 a,
@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.25rem;
+	font: 1.25rem 'DM Serif Text',serif;
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
 	font-weight: 800;
@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1rem;
+	font: 1rem 'DM Serif Text',serif;
 	margin-top: 1.5rem;
 	margin-bottom: 0.5rem;
 	font-weight: bold;
