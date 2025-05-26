@@ -64,6 +64,16 @@ export default class Bingo {
 		return this[keyword][0]._data
 	}
 	list() {
+		if (this.listValue === false && import.meta.env.VITE_MODE === 'development') {
+			console.log(`
+####################################################
+# -------------------- ERROR --------------------- #
+####################################################
+# No bingo lists for this week found!              #
+# Run \`git pull\` to grab the latest from the repo. #
+####################################################
+			`)
+		}
 		return this.listValue
 	}
 	// Check win
