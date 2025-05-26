@@ -55,7 +55,7 @@ else {
 
 // Log stuff
 
-$output = implode("\n", array_merge($wf_content, $new_wf_content));
+$output = implode("\n", $new_wf_content);
 echo implode("\n", $new_wf_content);
 
 file_put_contents($wf_logs, $output);
