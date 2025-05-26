@@ -42,11 +42,14 @@
 		cursor: pointer;
 		background: inherit;
 		border: none;
-		width: 0.75rem;
+		width: 1rem;
 		padding: 0.75rem;
-		aspect-ratio: 1/3;
+		aspect-ratio: 1/2;
+		border: 1rem var(--color-text) solid;
 		text-align: center;
-		transform: translateY(-50%);
+		border-radius: 500rem;
+		aspect-ratio: 1;
+		transform: translate(50%, -50%);
 		position: absolute;
 			top: 50vh;
 			right: 100%;
@@ -54,6 +57,7 @@
 			fill: white;
 			max-height: 100%;
 			width: auto;
+			transform: translateX(-100%);
 		}
 	}
 	h2 {
