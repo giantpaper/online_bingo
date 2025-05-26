@@ -71,16 +71,7 @@ strong {
 		cursor: pointer;
 		span {
 			font-weight: inherit;
-			line-height: 1.25rem;
-			i {
-				font-style: normal;
-			}
-			em {
-				font-size: 1.5em;
-				letter-spacing: -0.0625rem;
-				font-style: italic;
-				font-family: 'Sorts Mill Goudy',serif;
-			}
+			line-height: 1.5;
 		}
 	}
 	em {
