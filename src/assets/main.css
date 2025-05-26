@@ -42,12 +42,11 @@ h2 {
 		margin-top: 0;
 	}
 	&:after {
-		background: currentcolor;
-		margin-left: calc(var(--ts-spacing-x) * -1);
+		margin-left: calc(var(--spacing-x) * -1);
 		margin-top: 1rem;
-		mask: url('@/assets/h2_separator.svg') no-repeat calc((var(--ts-spacing-x) - 80px) * -0.6) / contain;
-		width: 150px;
-		aspect-ratio: 104 / 16;
+		width: calc(100% + (var(--spacing-x) * 2));
+		height: 1px;
+		background: currentcolor;
 		content: '';
 		display: block;
 	}
