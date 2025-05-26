@@ -9,6 +9,14 @@ $list = array_map('trim', file(FILE));
 
 $today = strtotime('today');
 
+// Create ./ready if no-existe
+
+
+
+if (!file_exists(dirname(FILE) . '/ready')) {
+	mkdir(dirname(FILE) . '/ready');
+}
+
 // Setup logging
 
 $wf_logs = './workflow_logs.txt';
