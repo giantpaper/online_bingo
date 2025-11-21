@@ -1,4 +1,5 @@
-Fri, 14 Nov 2025 15:09:19 -0800: Ran workflow
-2025-10-26 does not exist so nothing was deleted
-2025-11-09 already exists so did not create new file
+Fri, 21 Nov 2025 15:04:46 -0800: Ran workflow
+[-] Removed 2025-11-02's list
+
 2025-11-16 already exists so did not create new file
+[+] Added 2025-11-23's list - 269B large
